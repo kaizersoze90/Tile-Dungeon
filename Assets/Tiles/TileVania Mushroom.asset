@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SPA_Rock_Grass_Water_29
+  m_Name: TileVania Mushroom
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 3747544219709766277, guid: 13a5e8115c18ef94a9c745012daee55d, type: 3}
-  m_Color: {r: 0, g: 0.9716981, b: 0.047297, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 3ef227de2b2681147b651e2d93d6d860, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0

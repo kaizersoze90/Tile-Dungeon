@@ -3,19 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ladder
+  - Player
+  - Background
+  - Enemy
+  - Hazard
   - 
   - 
   - 
@@ -44,11 +45,17 @@ TagManager:
   - name: Background
     uniqueID: 615877867
     locked: 0
-  - name: Water
-    uniqueID: 3666043287
-    locked: 0
   - name: Platform
     uniqueID: 901765847
+    locked: 0
+  - name: Hazard
+    uniqueID: 3666043287
+    locked: 0
+  - name: Ladder
+    uniqueID: 2871284831
+    locked: 0
+  - name: Enemy
+    uniqueID: 1665217917
     locked: 0
   - name: Player
     uniqueID: 1980012279
