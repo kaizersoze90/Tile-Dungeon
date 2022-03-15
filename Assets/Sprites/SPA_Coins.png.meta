@@ -166,10 +166,10 @@ TextureImporter:
       name: SPA_Coins_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 8
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: SPA_Coins_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 48
+        y: 8
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: SPA_Coins_2
       rect:
         serializedVersion: 2
-        x: 75
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 90
+        y: 8
+        width: 4
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: SPA_Coins_3
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 124
+        y: 8
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: SPA_Coins_4
       rect:
         serializedVersion: 2
-        x: 149
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 160
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: SPA_Coins_5
       rect:
         serializedVersion: 2
-        x: 186
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 198
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: SPA_Coins_6
       rect:
         serializedVersion: 2
-        x: 223
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 236
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: SPA_Coins_7
       rect:
         serializedVersion: 2
-        x: 260
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 274
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: SPA_Coins_8
       rect:
         serializedVersion: 2
-        x: 297
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 312
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +355,10 @@ TextureImporter:
       name: SPA_Coins_9
       rect:
         serializedVersion: 2
-        x: 334
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 350
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +376,10 @@ TextureImporter:
       name: SPA_Coins_10
       rect:
         serializedVersion: 2
-        x: 371
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 388
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +397,10 @@ TextureImporter:
       name: SPA_Coins_11
       rect:
         serializedVersion: 2
-        x: 408
-        y: 0
-        width: 37.583332
-        height: 32
+        x: 426
+        y: 8
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

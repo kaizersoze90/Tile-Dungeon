@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -17,9 +18,9 @@ TagManager:
   - Background
   - Enemy
   - Hazard
-  - 
-  - 
-  - 
+  - Bullet
+  - Portal
+  - Pickups
   - 
   - 
   - 
@@ -53,6 +54,12 @@ TagManager:
     locked: 0
   - name: Ladder
     uniqueID: 2871284831
+    locked: 0
+  - name: Portal
+    uniqueID: 925493097
+    locked: 0
+  - name: Pickups
+    uniqueID: 3921791321
     locked: 0
   - name: Enemy
     uniqueID: 1665217917

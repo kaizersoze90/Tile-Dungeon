@@ -12,6 +12,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] Vector2 deathKick = new Vector2(20f, 20f);
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gunPosition;
+    [SerializeField] AudioClip gunSFX;
 
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
@@ -30,7 +31,7 @@ public class PlayerControl : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         myBodyCollider = GetComponent<CapsuleCollider2D>();
-        myFeetCollider = GetComponent<BoxCollider2D>();
+        myFeetCollider = GetComponentInChildren<BoxCollider2D>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         startGravityScale = myRigidbody.gravityScale;
     }
@@ -68,6 +69,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (!isAlive) { return; }
         Instantiate(bullet, gunPosition.position, transform.rotation);
+        AudioSource.PlayClipAtPoint(gunSFX, transform.position);
     }
 
     void Run()
@@ -111,6 +113,7 @@ public class PlayerControl : MonoBehaviour
             myAnimator.SetTrigger("Dying");
             mySpriteRenderer.material.color = Color.red;
             myRigidbody.velocity = deathKick;
+            FindObjectOfType<GameControl>().ProcessPlayerDeath();
         }
     }
 
